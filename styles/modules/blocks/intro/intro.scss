@@ -1,0 +1,29 @@
+.intro{
+    max-width: 1120px;
+    margin: auto;
+    margin-bottom: 60px;
+    padding: 0 60px;
+    @media all and (max-width: 767px) {
+        & {
+            padding: 0 20px;
+            margin-bottom: 20px;
+        }
+    }
+    &__text{
+        font-size: 32px;
+        line-height: 40px;
+        color: #8E8E98;
+    }
+    @media all and (max-width: 1023px) {
+        &__text {
+            font-size: 20px;
+            line-height: 30px;
+        }
+    } 
+    @media all and (max-width: 767px) {
+        &__text {
+            font-size: 12px;
+            line-height: 18px;
+        }
+    } 
+}

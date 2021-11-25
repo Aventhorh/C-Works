@@ -1,0 +1,51 @@
+.form{
+    border: none;
+    margin-bottom: 18px;
+    &__container{
+        display: flex;
+        border: none;
+        padding: 0;
+    }
+    &__email{
+        background-color: rgba(142, 142, 152, 0.2);
+        border-radius: 8px 0px 0px 8px;
+        border: none;
+        height: 50px;
+        width: 348px;
+        color: #FFF;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.375px;
+    }
+    @media all and (max-width: 1024px) {
+        &__email {
+            width: 427px;
+        }
+    } 
+    @media all and (max-width: 767px) {
+        &__email {
+            width: 238px;
+        }
+    } 
+    &__email:hover{
+        background-color: rgba(142, 142, 152, 0.3);
+    }
+    &__email[type="email"]:focus { 
+        outline: none; 
+    }
+    &__button{
+        border: none;
+        background-color: #47474C;
+        border-radius: 0px 8px 8px 0px;
+        height: 52px;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.375px;
+        color: #FFF;
+        padding: 13px 14px;
+    }
+    &__button:hover{
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,26 @@
+.page {
+    font-family: "Roboto";
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+    min-width: 320px;
+    color: #FFFFFF;
+    background-color: #000000;
+  }
+.content{
+  max-width: 1440px;
+  margin: auto;
+}
+@import "../vendor/normalize.css";
+@import "../vendor/fonts/fonts.css";
+@import "./modules/blocks/header/header.scss";
+@import "./modules/blocks/promo/promo.scss";
+@import "./modules/blocks/album/album.scss";
+@import "./modules/blocks/intro/intro.scss";
+@import "./modules/blocks/service/service.scss";
+@import "./modules/blocks/guarantee/guarantee.scss";
+@import "./modules/blocks/support/support.scss";
+@import "./modules/blocks/footer/footer.scss";
+@import "./modules/blocks/form/form.scss";
