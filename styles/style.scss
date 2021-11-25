@@ -15,12 +15,12 @@
 }
 @import "../vendor/normalize.css";
 @import "../vendor/fonts/fonts.css";
-@import "./modules/blocks/header/header.scss";
-@import "./modules/blocks/promo/promo.scss";
-@import "./modules/blocks/album/album.scss";
-@import "./modules/blocks/intro/intro.scss";
-@import "./modules/blocks/service/service.scss";
-@import "./modules/blocks/guarantee/guarantee.scss";
-@import "./modules/blocks/support/support.scss";
-@import "./modules/blocks/footer/footer.scss";
-@import "./modules/blocks/form/form.scss";
+@import "../blocks/header/header.scss";
+@import "../blocks/promo/promo.scss";
+@import "../blocks/album/album.scss";
+@import "../blocks/intro/intro.scss";
+@import "../blocks/service/service.scss";
+@import "../blocks/guarantee/guarantee.scss";
+@import "../blocks/support/support.scss";
+@import "../blocks/footer/footer.scss";
+@import "../blocks/form/form.scss";
