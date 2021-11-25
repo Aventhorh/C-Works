@@ -1,22 +1,5 @@
 @import "../vendor/normalize.css";
 @import "../vendor/fonts/fonts.css";
-.page {
-  font-family: "Roboto";
-  box-sizing: border-box;
-  margin: 0 auto;
-  font-style: normal;
-  font-weight: 400;
-  width: 100%;
-  min-width: 320px;
-  color: #FFFFFF;
-  background-color: #000000;
-}
-
-.content {
-  max-width: 1440px;
-  margin: auto;
-}
-
 .header {
   display: flex;
   width: 100%;
@@ -648,4 +631,21 @@
 }
 .form__button:hover {
   cursor: pointer;
+}
+
+.page {
+  font-family: "Roboto";
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 400;
+  width: 100%;
+  min-width: 320px;
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+.content {
+  max-width: 1440px;
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */
