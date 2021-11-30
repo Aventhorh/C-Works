@@ -1,11 +1,11 @@
 .page {
-  font-family: "Roboto";
+  font-family: "Roboto", Arial, sans-serif;
   box-sizing: border-box;
   margin: 0 auto;
   font-style: normal;
   font-weight: 400;
   width: 100%;
   min-width: 320px;
-  color: #FFFFFF;
-  background-color: #000000;
+  color: var(--white);
+  background-color: var(--black);
 }/*# sourceMappingURL=page.css.map */

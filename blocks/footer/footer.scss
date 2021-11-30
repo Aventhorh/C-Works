@@ -8,7 +8,7 @@
         }
     } 
     &__line{
-        border: 2px solid #151515;
+        border: 2px solid var(--dark-line);
         margin-bottom: 65px;
     }
     @media all and (max-width: 1023px) {
@@ -30,16 +30,24 @@
         margin: 0 0 90px 0;
         max-width: 1100px;
         box-sizing: border-box;
-        padding: 0;
+        padding: 65px 0 0 0;
+        border-top: 2px solid var(--dark-line);
     }
+    @media all and (max-width: 767px) {
+        &__wrapper {
+            margin: 0 0 184px 0;
+            padding: 30px 0 0 0;
+        }
+    } 
     &__logo{
         font-size: 22px;
         line-height: 30px;
+        margin: 0;
         margin-right: 20px;
     }
     &__news{
-        background-color: #25E197;
-        color: #000000;
+        background-color: var(--green);
+        color: var(--black);
         border-radius: 4px;
         font-size: 12px;
         line-height: 12px;
@@ -59,7 +67,8 @@
     &__text{
         font-size: 12px;
         line-height: 18px;
-        color: #47474C;
+        color: var(--dark-primary);
+        margin: 0;
     }
     @media all and (max-width: 1023px) {
         &__text:nth-child(1) {

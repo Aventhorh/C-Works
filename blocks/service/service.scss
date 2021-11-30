@@ -1,6 +1,5 @@
 .service{
-    max-width: 1120px;
-    margin: auto;
+    @include flexible ();
     margin-bottom: 120px;
     padding: 0 60px;
     @media all and (max-width: 767px) {
@@ -14,7 +13,7 @@
         font-size: 32px;
         line-height: 40px;
         text-decoration: none;
-        color: #FFFFFF;
+        color: var(--white);
         margin-bottom: 120px;
     }
     @media all and (max-width: 1023px) {
@@ -49,8 +48,11 @@
         display: flex;
         flex-direction: column;
         padding: 40px;
-        background-color: #1C1C1E;
+        background-color: var(--dark-card);
         border-radius: 16px;
+    }
+    &__card:hover{
+        background-color: var(--dark-card-hover);
     }
     &__card:nth-child(1) {
         margin-right: 20px;
@@ -67,15 +69,15 @@
         }
     } 
     &__logo{
-        color: #8E8E98;
+        color: var(--grey);
         font-size: 18px;
         line-height: 18px;
-        margin-bottom: 20px;
+        margin: 0 0 20px 0;
     }
     &__title{
         font-size: 32px;
         line-height: 32px;  
-        margin-bottom: 40px;
+        margin: 0 0 40px 0;
     }
     @media all and (max-width: 767px) {
         &__title {
@@ -84,21 +86,23 @@
         }
     } 
     &__text{
-        color: #8E8E98;
+        color: var(--grey);
         font-size: 32px;
         line-height: 40px;
-        margin-bottom: 40px;
+        margin: 0 0 40px 0;
     }
     @media all and (max-width: 767px) {
         &__text {
             font-size: 12px;
             line-height: 18px; 
+            margin: 0 0 100px 0;
         }
     } 
     &__price{
-        color: #25E197;
+        color: var(--green);
         font-size: 14px;
         line-height: 14px;
+        margin: 0;
     }
     @media all and (max-width: 767px) {
         &__price {

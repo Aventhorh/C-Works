@@ -1,6 +1,6 @@
 .support{
-    max-width: 1120px;
-    margin: auto auto 180px auto;
+    @include flexible ();
+    margin-bottom: 180px;
     padding: 0 60px;
     @media all and (max-width: 767px) {
         & {
@@ -27,11 +27,11 @@
         }
     }
     &__button{
-        background-color: #47474C;
+        background-color: var(--dark-primary);
         border-radius: 8px;
         border: none;
         padding: 13px 30px;
-        color: #FFF;
+        color: var(--white);
         margin-bottom: 50px;
         font-size: 14px;
         line-height: 24px;
@@ -54,7 +54,8 @@
     &__text{
         font-size: 32px;
         line-height: 40px;
-        color: #8E8E98;
+        color: var(--grey);
+        margin: 0;
     }
     @media all and (max-width: 1023px) {
         &__text {
