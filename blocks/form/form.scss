@@ -11,20 +11,21 @@
         border-radius: 8px 0px 0px 8px;
         border: none;
         height: 50px;
-        width: 348px;
-        color: #FFF;
+        width: 332px;
+        color: var(--white);
         font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.375px;
+        padding-left: 16px;
     }
     @media all and (max-width: 1024px) {
         &__email {
-            width: 427px;
+            width: 395px;
         }
     } 
     @media all and (max-width: 767px) {
         &__email {
-            width: 238px;
+            width: 206px;
         }
     } 
     &__email:hover{
@@ -35,14 +36,14 @@
     }
     &__button{
         border: none;
-        background-color: #47474C;
+        background-color: var(--dark-primary);;
         border-radius: 0px 8px 8px 0px;
         height: 52px;
         font-size: 14px;
         line-height: 24px;
         text-align: center;
         letter-spacing: 0.375px;
-        color: #FFF;
+        color: var(--white);
         padding: 13px 14px;
     }
     &__button:hover{

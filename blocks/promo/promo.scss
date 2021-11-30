@@ -1,8 +1,7 @@
 .promo {
+    @include flexible ();
     display: flex;
     flex-direction: column;
-    margin: auto;
-    max-width: 1100px;
     @media all and (max-width: 1024px) {
         & {
             padding: 0 60px;
@@ -55,11 +54,16 @@
     &__text{
         font-size: 12px;
         line-height: 18px;
-        color: #47474C;
+        color: var(--dark-primary);
         margin: 0;
         margin-bottom: 120px;
         padding: 0;
     }
+    @media all and (max-width: 1023px) {
+        &__text {
+            margin-bottom: 52px;
+        }
+    } 
     @media all and (max-width: 767px) {
         &__text {
             margin-bottom: 40px;
